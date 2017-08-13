@@ -7,6 +7,9 @@ window.onload = function() {
   // new game boolean
   var newGame = false;
 
+  var wins = 0;
+  var losses = 0;
+
   // We begin by expanding our array to include four options.
   var optionOne = Math.floor(Math.random() * 12) + 1;
   var optionTwo = Math.floor(Math.random() * 12) + 1;
@@ -81,10 +84,14 @@ window.onload = function() {
   if (counter === targetNumber) {
     alert("You win!");
     newGame = true;
+    wins++;
+    $("#wins").html("Wins: " + wins);
   }
   else if (counter >= targetNumber) {
     alert("You lose!!");
     newGame = true;
+    losses++;
+    $("#losses").html("Losses: " + losses);
   }
   // Reset all global variables
   if(newGame) {

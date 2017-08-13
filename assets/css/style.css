@@ -5,23 +5,21 @@ body {
 
 #title {
 	background-color: #c26520;
-	font-size: 40px;
+	font-size: 30px;
 	/*float: left;*/
 }
 
 #instructions {
 	background-color: #f3d3ac;
 	font-size: 20px;
-	/*float: left;*/
-/*	width: 50%;
-*/}
+}
 
 #guess {
 	background-color: #51c175;
-	max-width: 30%;
 	float: left;
 	margin-right: 20px;
 	font-size: 25px;
+	padding: 10px;
 
 }
 
@@ -29,7 +27,7 @@ body {
 	background-color: #41fcfe;
 	float: left;
 	font-size: 25px;
-
+	padding: 10px;
 }
 
 .crystal-image {
@@ -37,13 +35,13 @@ body {
 	margin-top: 30px;
 	width: 100px;
 	height: 100px;
+	margin-right: 5px;
 	/*float: left;*/
 }
 
 #total-score-title {
 	background-color: #26988c;
 	color: white;
-	width: 50%;
 	font-size: 30px;
 	/*float: left;*/
 }
@@ -51,7 +49,6 @@ body {
 #total-score {
 	background-color: #26988c;
 	color: white;
-	width: 30%;
 	font-size: 35px;	
 	/*float: left;*/
 }
